@@ -55,6 +55,8 @@
     display: flex;
   }
   .header-logo{
+    display: flex;
+    align-items: center;
     
     @include mq(md) {
       margin-right: auto;
@@ -71,8 +73,8 @@
     border: none;
     justify-content: flex-end;
     position: relative;
-    bottom: 12px;
-    left: 80px;
+    bottom: 3px;
+    left: 84px;
   
     span {
       display: block;

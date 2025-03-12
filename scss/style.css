@@ -30,6 +30,10 @@ li {
   display: flex;
 }
 
+.header-logo {
+  display: flex;
+  align-items: center;
+}
 @media (min-width: 600px) {
   .header-logo {
     margin-right: auto;
@@ -47,8 +51,8 @@ li {
   border: none;
   justify-content: flex-end;
   position: relative;
-  bottom: 12px;
-  left: 80px;
+  bottom: 3px;
+  left: 84px;
 }
 .drawer-menu_btn span {
   display: block;
