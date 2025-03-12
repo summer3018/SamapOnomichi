@@ -1,0 +1,61 @@
+// ブレークポイント用のmixin（min-width / max-width 両対応）
+@mixin mq($breakpoint, $direction: min) {
+    @if $direction == min {
+      @media (min-width: #{map-get($breakpoints, $breakpoint)}) {
+        @content;
+      }
+    } @else if $direction == max {
+      @media (max-width: #{map-get($breakpoints, $breakpoint)}) {
+        @content;
+      }
+    }
+  }
+  
+  // ブレークポイントの定義
+  $breakpoints: (
+    sm: 1px,  // スマホ用（599px以下）
+    md: 600px,  // タブレット用（600px以上1024px以下）
+    lg: 1025px  // PC用（1025px以上）
+  );
+  a{
+    text-decoration: none;
+    color: #333;
+  }
+  li{
+    list-style: none;
+  }
+  .sp-none{
+    display: none;
+    @include mq(md) {
+      display: block;
+    }
+  }
+  .pc-none{
+    display: none;
+    @include mq(md) {
+      display: block;
+    }
+  }
+//   header
+
+  .header{
+
+  }
+  .header__inner{
+    padding: 16px 20px;
+  }
+  .header-logo{
+
+  }
+  .header-nav{
+
+  }
+  .header-lists{
+
+  }
+  .header-list{
+
+  }
+  .header-btn{
+
+  }
