@@ -46,14 +46,18 @@ li {
   background: transparent;
   border: none;
   justify-content: flex-end;
+  position: relative;
+  bottom: 12px;
+  left: 80px;
 }
 .drawer-menu_btn span {
   display: block;
-  width: 30px;
+  width: 32px;
   height: 3px;
-  background-color: #333;
+  background: #4A3636;
   margin: 5px 0;
   transition: transform 0.3s ease-in-out;
+  border-radius: 20%;
 }
 .drawer-menu_btn.open span:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
