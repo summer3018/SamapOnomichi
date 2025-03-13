@@ -120,9 +120,21 @@ li {
   margin: 0 auto;
   text-align: center;
 }
+.fv-title1_image {
+  padding: 0 20px 12px;
+}
+.fv-title2_image {
+  padding-bottom: 10px;
+}
 .fv-image_wrpper {
   display: flex;
   flex-wrap: wrap;
+}
+.test1 {
+  margin-left: 20px;
+}
+.test2 {
+  margin: 0 45px 0 auto;
 }
 .test3 {
   text-align: center;

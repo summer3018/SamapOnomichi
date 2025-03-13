@@ -165,11 +165,13 @@ $text-blown: var(--LP-Blown, #4A3636);
   }
 }
 .fv-title1_image{
+  padding: 0 20px 12px;
   img{
 
   }
 }
 .fv-title2_image{
+  padding-bottom: 10px;
   img{
 
   }
@@ -182,13 +184,15 @@ $text-blown: var(--LP-Blown, #4A3636);
   }
 }
 .test1{
+  margin-left: 20px;
   img{
 
   }
 }
 .test2{
+  margin: 0 45px 0 auto;
   img{
-    
+
   }
 }
 .test3{
