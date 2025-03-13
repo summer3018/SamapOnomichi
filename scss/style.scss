@@ -164,6 +164,16 @@ $text-blown: var(--LP-Blown, #4A3636);
 
   }
 }
+.fv-title1_image{
+  img{
+
+  }
+}
+.fv-title2_image{
+  img{
+
+  }
+}
 .fv-image_wrpper{
   display: flex;
   flex-wrap: wrap;
@@ -172,10 +182,14 @@ $text-blown: var(--LP-Blown, #4A3636);
   }
 }
 .test1{
+  img{
 
+  }
 }
 .test2{
-
+  img{
+    
+  }
 }
 .test3{
   text-align: center;
