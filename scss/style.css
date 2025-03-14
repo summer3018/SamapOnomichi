@@ -1,3 +1,4 @@
+@charset "UTF-8";
 a {
   text-decoration: none;
   color: #333;
@@ -169,11 +170,26 @@ li {
   border: 1px solid red;
   border-radius: 24px;
   inset: 10px;
+  padding: 0 20px;
 }
 
 .about-card {
   border-radius: 24px;
   background: var(--LP-White, #FFF);
+}
+
+.about-head_imaage {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.about-head_imaage img:nth-child(1) {
+  width: 100px;
+  height: auto;
+}
+.about-head_imaage img:nth-child(3) {
+  width: 100px;
+  height: auto;
 }
 
 .about-text_wrpper {
@@ -194,13 +210,25 @@ li {
   font-size: 20px;
   font-weight: 500;
   line-height: 125%; /* 25px */
-  padding-bottom: 24px;
+  padding-bottom: 12px;
+  position: relative; /* 親要素に relative を追加 */
+}
+.about-subutitle::after {
+  content: "";
+  position: absolute; /* 絶対配置にする */
+  left: 50%; /* 中央揃え */
+  bottom: 0; /* テキストの真下に配置 */
+  transform: translateX(-50%); /* 水平中央調整 */
+  width: 190px; /* 下線の長さを調整 */
+  height: 6px; /* 下線の太さ */
+  background-color: #FFEE56;
 }
 
 .about-heading {
   font-size: 14px;
   font-weight: 700;
   padding-bottom: 24px;
+  padding-top: 24px;
 }
 
 .about-text {
