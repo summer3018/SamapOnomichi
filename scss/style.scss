@@ -211,7 +211,7 @@ $light-blue:  #E9F6F8;
 }
 
 .bottm-image_wrpper{
-  
+
 }
 .food-image{
   padding-left: 20px;
@@ -229,4 +229,70 @@ $light-blue:  #E9F6F8;
   img{
 
   }
+}
+
+// about
+.about{
+
+}
+.about__ineer{
+
+}
+.about-card{
+  border-radius: 24px;
+  background: var(--LP-White, #FFF);
+}
+.about-head_imaage{
+  img{
+    
+  }
+}
+.about-text_wrpper{
+  
+}
+.about-title{
+  color: $blown;
+  text-align: center;
+  
+  /* En/Courgette 16px Regular */
+  font-family: Courgette;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 125%; /* 20px */
+}
+.about-subutitle{
+  color: $blown;
+  text-align: center;
+  font-family: "Kiwi Maru";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 125%; /* 25px */
+}
+.about-heading{
+  color: $blown;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 160%; /* 22.4px */
+}
+.about-text{
+  color: $blown;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 160%; /* 19.2px */
+}
+.about-text2{
+  color: $blown;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 160%; /* 22.4px */
+}
+.about-btn{
+  color: $blown;
+  font-feature-settings: 'pref' on;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%; /* 25.6px */
 }
