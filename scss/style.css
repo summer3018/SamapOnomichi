@@ -178,17 +178,13 @@ li {
   width: 100%;
 }
 
-.about__ineer {
-  border: 1px solid red;
-  border-radius: 24px;
-  inset: 10px;
-  padding: 0 20px;
-  margin: 0 20px;
-}
-
 .about-card {
   border-radius: 24px;
   background: var(--LP-White, #FFF);
+  border: 1px solid red;
+  border-radius: 24px;
+  padding: 0 20px;
+  margin: 32px 20px 0 20px;
 }
 
 .about-head_imaage {
@@ -262,5 +258,11 @@ li {
   font-size: 16px;
   font-weight: 700;
   line-height: 160%; /* 25.6px */
+  border-radius: 40px;
+  border: 2px solid #4A3636;
+  background: var(--LP-White, #FFF);
+  box-shadow: 0px 4px 0px 0px #4A3636;
+  padding: 6px 24px;
+  margin-bottom: 40px;
 }
 /*# sourceMappingURL=style.css.map */
