@@ -255,8 +255,6 @@ inset: 10px;
   line-height: 160%;
 }
 .about-title{
-  
-  /* En/Courgette 16px Regular */
   font-family: Courgette;
   font-size: 16px;
   font-weight: 400;
@@ -267,19 +265,23 @@ inset: 10px;
   font-size: 20px;
   font-weight: 500;
   line-height: 125%; /* 25px */
+  padding-bottom: 24px;
 }
 .about-heading{
   font-size: 14px;
   font-weight: 700;
+  padding-bottom: 24px;
 }
 .about-text{
   font-size: 12px;
   font-weight: 400;
   line-height: 160%; /* 19.2px */
+  padding-bottom: 24px;
 }
 .about-text2{
   font-size: 14px;
   font-weight: 700;
+  padding-bottom: 24px;
 }
 .about-btn{
   font-feature-settings: 'pref' on;
