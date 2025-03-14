@@ -133,6 +133,10 @@ li {
   display: flex;
   flex-wrap: wrap;
 }
+.fv-image_wrpper img {
+  width: 100%;
+}
+
 .fv-image_wrpper {
   margin-left: 20px;
 }
@@ -166,11 +170,20 @@ li {
   padding-right: 20px;
 }
 
+.black-cat_image img {
+  width: 100%;
+}
+
+.blown-cat_image img {
+  width: 100%;
+}
+
 .about__ineer {
   border: 1px solid red;
   border-radius: 24px;
   inset: 10px;
   padding: 0 20px;
+  margin: 0 20px;
 }
 
 .about-card {
