@@ -236,7 +236,9 @@ $light-blue:  #E9F6F8;
 
 }
 .about__ineer{
-
+border: 1px solid red;
+border-radius: 24px;
+inset: 10px;
 }
 .about-card{
   border-radius: 24px;
@@ -248,11 +250,11 @@ $light-blue:  #E9F6F8;
   }
 }
 .about-text_wrpper{
-  
-}
-.about-title{
   color: $blown;
   text-align: center;
+  line-height: 160%;
+}
+.about-title{
   
   /* En/Courgette 16px Regular */
   font-family: Courgette;
@@ -261,36 +263,25 @@ $light-blue:  #E9F6F8;
   line-height: 125%; /* 20px */
 }
 .about-subutitle{
-  color: $blown;
-  text-align: center;
   font-family: "Kiwi Maru";
   font-size: 20px;
   font-weight: 500;
   line-height: 125%; /* 25px */
 }
 .about-heading{
-  color: $blown;
-  text-align: center;
   font-size: 14px;
   font-weight: 700;
-  line-height: 160%; /* 22.4px */
 }
 .about-text{
-  color: $blown;
-  text-align: center;
   font-size: 12px;
   font-weight: 400;
   line-height: 160%; /* 19.2px */
 }
 .about-text2{
-  color: $blown;
-  text-align: center;
   font-size: 14px;
   font-weight: 700;
-  line-height: 160%; /* 22.4px */
 }
 .about-btn{
-  color: $blown;
   font-feature-settings: 'pref' on;
   font-size: 16px;
   font-weight: 700;
